@@ -14,7 +14,7 @@ const Map = () => {
     useEffect(() => {
         const loadRoute = async () => {
             try {
-                const response = await fetch('http://localhost:8080/api/route');  // Use the proxy path
+                const response = await fetch('blockly-backend-production.up.railway.app/api/route');  // Use the proxy path
                 if (!response.ok) throw new Error('Network response was not ok');
                 const data = await response.json();
                 setCoordinates(data.coordinates);
