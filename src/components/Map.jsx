@@ -76,7 +76,7 @@ const Map = () => {
                     position={coordinates[currentIndex]}
                     title="Current Position"
                    icon={{
-                        url: 'https://img.icons8.com/ios-filled/50/000000/car.png',
+                        url: 'https://img.icons8.com/?size=100&id=9337&format=png&color=000000',
                         scaledSize: new window.google.maps.Size(32, 32),
                         origin: new window.google.maps.Point(0, 0),
                         anchor: new window.google.maps.Point(16, 32),
@@ -88,5 +88,4 @@ const Map = () => {
         <div>Loading...</div>
     );
 };
-
 export default Map;
